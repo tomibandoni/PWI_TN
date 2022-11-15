@@ -1,0 +1,92 @@
+/*Comentarios en CSS*/
+/* Selectores */
+
+/*Selector por etiquetas*/
+/* A todos los elementos <p> les asigna esa propiedas*/
+body{
+    background-color: #3498db;
+}
+
+p{
+    color: green;
+    background-color: yellow;
+}
+
+h1{
+    background-color: rgba(100,50,88,0.5);
+    width: 800px;
+    height: 50vh;/*medida del alto d eun elemento*/
+}
+
+a{
+    background-color: tomato;
+    width: 100px;
+}
+
+button{
+    background-color: rgb(150,38,210);/*background es el color para el fondo*/
+}
+/* Selectores de clases*/
+/*.nombredelaclase*/
+
+.textoRojo{
+    color: red;/*Color es la propiedad para el color de la tipgrafia*/
+}
+div{
+    width: 300px;
+    height: 200px;
+    background-image: url(../Clase2/Imagenes/Borges.jpg);
+    /*me permite colocar una imagen de fondo*/
+}
+
+.letras{
+    color: blue;
+}
+
+
+/*Selectores po ID*/
+/*#nombredelid*/
+
+#unTexto{
+    background-color: orange;
+}
+
+/* Orden de prioridad::
+    mas general: por etiquetas
+    despues: por clase
+    y ultimo (mas especifico) id
+
+    El !importan lo que ace es forzar una propiedad que tiene menor gerarquia q otras. No es muy recomendable usar
+*/
+
+/* Para definir colores tenemos 3 formas
+    ROJO-VERDE-AZUL - son los principales
+hexadecimal (combinacion de letras A-F y numeros 0-9)
+rgb (red-green-bleu)- rgba (la letra a agrega transparencia, es un num de 0 a 1)
+predefinidos por CSS
+*/
+
+/*UNIDADES
+El porcentaje toma como el 100% la medida del padre para saber cuanto va a valer el hijo
+*/
+
+/*vh significa view heigth toma de referencia el tamaño de la pantalla
+vw view width lo mismo
+*/
+/*Para definir el tamaño de un elemento*/
+/*width -> establece el ancho de un elemento, tomando como referencia al elemento padre*/
+
+img{
+    width: 50%;
+}
+
+ul{
+    width 800px;
+    height: 100px;
+}
+
+li{
+    width: 50%;
+    height: 25%;
+    background-color: blueviolet;
+}
