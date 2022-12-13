@@ -1,0 +1,30 @@
+*{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*Poner * {} es para modificar todo el codigo, aplica propiedades a todo*/
+
+body{
+    background-color: lightpink;
+    /*font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
+}
+/* aplica a los elementos del body pero no a todos*/
+/* Unidades: 
+    1rem , 1em -> 16px
+px - % - vh
+*/
+
+/* No hacer tipografias menores a los 14 px
+*/
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+}
+
+button{
+    font-family: 'BhuTuka Expanded One', cursive;
+}
