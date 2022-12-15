@@ -16,15 +16,24 @@ h1{
     background-color: rgba(100,50,88,0.5);
     width: 800px;
     height: 50vh;/*medida del alto d eun elemento*/
+    display: inline-block;
 }
 
 a{
     background-color: tomato;
+    color: white;
     width: 100px;
+    /*padding-bottom: 10px;*/
+    padding: 10px;
+    border: black 2px solid;
+    border-radius: 20px;
+    display: block;
 }
 
 button{
     background-color: rgb(150,38,210);/*background es el color para el fondo*/
+    /*margin-top: 80px;*/
+    margin: 80px;
 }
 /* Selectores de clases*/
 /*.nombredelaclase*/
