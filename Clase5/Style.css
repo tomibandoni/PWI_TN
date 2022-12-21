@@ -1,5 +1,7 @@
 .container{
     background-color: lightblue;
+    position: relative;
+    height: 300px;
 }
 
 .cubo{
