@@ -32,12 +32,29 @@ body{
 
 }
 
+.contenedor-tarjetas-recientes{
+    display: flex;
+    flex-direction: row; /*Si se comporta en forma de fila o columna*/
+    justify-content: space-between;/*Si es row le puedo indicar como ubicarce de manera horiontal. Si es colum lo hace de manera vertical*/
+    align-items: center; /* si es row alinea a los hijos en sentido vertical. Si es colum, de manera horizontal*/
+    flex-wrap: wrap; /*les defino para indicarle que respete (wrap) o  no (nowrap) el ancho definido de los elementos hijos*/
+    gap: 20px; /*Distancia entre los elementos hijos*/
+    margin: 10px 40px;
+}
+
+
+
+
+
 .tarjeta{
     border: 2px solid #052d46;
     border-radius: 10px;
     width: 250px;
     background-color: lightskyblue;
     padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .tarjeta>img{
     width: 100%;

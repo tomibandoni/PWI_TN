@@ -1,0 +1,91 @@
+/*main{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+}
+
+
+.Parte1{
+    display: flex;
+    justify-content: space-between;
+    width: 6vw;
+    align-items: center;
+}
+
+.clever{
+    color: rgb(133, 115, 232);
+    font-size: large;
+    font-weight: 900;
+}
+
+.menu{
+    align-items: center;
+    width: 20vw;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sign-in{
+    background-color: white;
+    border: 0px;
+    font-weight: 500;
+}
+
+.registro{
+    background-color: rgba(94,95,245,255);
+    border: 0px;
+    color: white;
+    border-radius: 5px;
+    width: 73px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 200;
+}
+*/
+main{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+}
+
+
+.Parte1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.clever{
+    color: rgb(133, 115, 232);
+    font-size: large;
+    font-weight: 900;
+}
+
+.menu{
+    align-items: center;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sign-in{
+    background-color: white;
+    border: 0px;
+    font-weight: 500;
+}
+
+.registro{
+    background-color: rgba(94,95,245,255);
+    border: 0px;
+    color: white;
+    border-radius: 5px;
+    width: 73px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 200;
+}
