@@ -17,7 +17,8 @@ body{
 .navegacion{
     background-color:lightskyblue;
     padding: 10px;
-    
+    position: sticky;
+    top: 0px;
 }
 .menu{
     list-style-type: none;
@@ -31,6 +32,17 @@ body{
     color: whitesmoke;
 
 }
+
+.link-boton{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+h1{
+    text-align: center;
+    
+}
+
 
 .contenedor-tarjetas-recientes{
     display: flex;
@@ -62,6 +74,10 @@ body{
     height: fit-content;
 }
 
+
+.tarjeta>p, .boton{
+    text-align: center;
+}
 
 .pie-de-pagina{
     background-color: #052d46;

@@ -8,9 +8,68 @@
     <title>Repaso-Ejercitacion</title>
 </head>
 <body>
+    <nav class="navegacion">
+        <ul class="menu">
+            <li class="boton">
+                Productos
+            </li>
+            <li class="boton">
+                <a href="./formulario.html"> Contacto</a>
+            </li>
+        </ul>
+    </nav>
     <h1>Contacto</h1>
-    <div class="formulario">
+    <section class="seccion-formulario">
+        <form action="" method="POST">
+            <!-- Dentro de action va la ruta donde quiero que se envie la info solicitada en el fomr. Si usas la paguina https://formspree.io/ por ejemplo, va la ruta que te dan. Sino se hace ocn JS-->
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombreUsuario"/>
+            </div>
+            
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="apellidoUsuario"/>
 
-    </div>
+            <label for="correo">Correo Electronico</label>
+            <input type="email" id="correo" name="correoElectronico" /> <!-- asdasd@asdas.asda Agrega una traba para que no envie el formulario si no tiene la estructura de un mail-->
+
+            <label for="pass">Contraseña</label>
+            <input type="password" id="pass" name="Contraseña"/>
+
+            <label for="Horarios">Ingrese en que franja horaria podemos comunicarnos</label>
+            <div>
+                <label for="tm">de 9hs a 12hs</label>
+                <input type="radio" id="tm" name="horarioDeContacto" value="9hs a 12hs">
+            
+                <label for="tt">de 12hs a 17 hs</label>
+                <input type="radio" id="tt" name="horarioDeContacto" value="12hs a 17hs">
+            </div>
+            <label for="notificaciones"> Indique que tipo de notificaciones quiere recibir</label>
+
+            <label for="notificacion">Productos nuevos</label>
+            <input type="checkbox" name="notificaciones" id="notificacion" value="nuevos productos">
+
+            <label for="promos">Promociones</label>
+            <input type="checkbox" name="notificaciones" id="promos" value="promociones">
+
+            <label for="paisOrigen">Nacionalidad</label>
+            <select name="Nacionalidad" id="paisOrigen">
+                <option value="Argentina">Argentina</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Chile">Chile</option>
+            </select>
+
+            <div>
+                <label for="mensaje">Escriba sus comentarios</label>
+                    <textarea name="comentarios" id="mensaje" cols="30" rows="10"></textarea>
+            </div>
+            
+            <input type="submit" value="Enviar">
+
+        </form>
+    </section>
 </body>
 </html>
+
+<!-- GET: busca algo y lo trae. POST: desde el navegador envio informacion-->
+
