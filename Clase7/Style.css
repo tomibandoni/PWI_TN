@@ -1,0 +1,95 @@
+
+
+section{
+    width: 900px;
+    border: 2px solid black;
+    display: flex;
+    /* height: 900px;
+    align-items: flex-end; */
+    justify-content: space-evenly;
+}
+
+.tamanio{
+    width: 150px;
+    height: 150px;
+}
+
+.caja1{
+    background-color: red;
+    /* flex-grow: 0;
+    flex-shrink: 1; */
+}
+
+.caja2{
+    background-color: green;
+    /* flex-grow: 0;
+    flex-shrink: 1; */
+}
+
+.caja3{
+    background-color: blue;
+    /* flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 500px; */
+}
+
+/**{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background:linear-gradient(rgba(53, 82, 66, 0.5), rgba(47, 80, 63, 0.6)), url(imagen.jpg) center no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h1,p{
+    margin-bottom: 15px;
+    color: white;
+    animation-name: izquierda;
+    animation-duration: 2s;
+
+}
+
+
+button{
+    width: 180px;
+    padding: 12px;
+    margin: 20px;
+    border: 2px solid #eee;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    letter-spacing: 1px;
+    background: transparent;
+    color: white;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+@keyframes izquierda {
+    0%{
+        transform: translatex(520px);
+        opacity: 0;
+    }   
+    100%{
+        transform: translatex(0px);
+        opacity: 1;
+    }
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    cursor: pointer;
+}
+*/
